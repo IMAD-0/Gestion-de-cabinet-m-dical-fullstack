@@ -6,9 +6,9 @@
 [![Express](https://img.shields.io/badge/Express-4-000000.svg)](https://expressjs.com/)
 [![MySQL](https://img.shields.io/badge/MySQL-8-4479A1.svg)](https://www.mysql.com/)
 
-Une application Full-Stack complète pour la gestion d'un cabinet de médecine générale, respectant les principes de conception logicielle avancés et couvrant 27 cas d'utilisation (UML).
+Une application Full-Stack complète pour la gestion d'un cabinet de médecine générale, respectant les principes de conception logicielle avancés (UML).
 
-## 🚀 Fonctionnalités Clés
+## 1. Fonctionnalités Clés
 
 - **Multi-Rôles** : Admin, Médecin, Secrétaire, et Patient.
 - **Gestion du Personnel** : L'admin gère les comptes médecins et secrétaires.
@@ -17,18 +17,18 @@ Une application Full-Stack complète pour la gestion d'un cabinet de médecine g
 - **Design Responsive** : Optimisé pour mobile et desktop.
 - **Sécurité** : Authentification JWT et rôles applicatifs.
 
-## 🛠️ Stack Technique
+## 2. Stack Technique
 
 - **Frontend** : React 19, TypeScript, Tailwind CSS 4, Lucide Icons.
 - **Backend** : Node.js, Express, JWT.
 - **Database** : MySQL 8.0.
 - **Outils** : Vite, npm.
 
-## 📦 Installation Rapide
+## 3. Installation Rapide
 
 ```bash
 # 1. Cloner le projet
-git clone <votre-repo>
+git clone https://github.com/IMAD-0/Gestion-de-cabinet-m-dical-fullstack.git
 
 # 2. Installer les dépendances
 npm install
@@ -40,21 +40,12 @@ npm install
 # Copier .env.example vers .env et remplir vos accès MySQL
 
 # 5. Lancer le projet
-npm run dev      # Frontend
-npm run backend  # Backend (Express)
+# Frontend
+npm run dev
+
+# Backend (Express)
+node --import tsx server/index.ts
+
+# → http://localhost:5173 
 ```
 
-## 📐 Conception UML
-
-Le projet suit une conception rigoureuse détaillée dans le fichier `CONCEPTION.md` incluant :
-- Diagramme de Cas d'Utilisation (27 UC)
-- Diagramme de Classes
-- Diagrammes de Séquences (Auth, RDV, Consultation)
-- Diagramme de Composants
-
-## 📄 Licence
-
-Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
-
----
-Développé avec ❤️ pour la gestion médicale moderne.
